@@ -1,0 +1,97 @@
+.wform input[type=text], select {
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .wform input[type=date], select {
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .wform textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  .wform input[type=submit] {
+    background-color: #0e21a0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .wform input[type=submit]:hover {
+    background-color: #4d2db7;
+  }
+  
+  .tform input[type=submit] {
+    background-color: #ec53b0;
+    color: white;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tform input[type=submit]:hover {
+    background-color: #4d2db7;
+  }
+  
+  .wtable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .wtable td, .wtable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .wtable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .wtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0e21a0;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .um-half {
+      width: 100% !important;
+    }
+  
+    .wtable {
+      font-size: 14px;
+    }
+    .wtable td, .wtable th {
+    padding: 3px;
+  }
+    .tform input[type=submit] {
+    padding: 3px 5px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  } 
