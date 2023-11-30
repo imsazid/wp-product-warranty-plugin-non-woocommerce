@@ -3,7 +3,7 @@
  * Plugin Name: WP Product Warranty Non WooCommerce
  * Description: This is Warranty Plugin for Non WooCommerce
  * Version: 1.0
- * Author: Sazid
+ * Author: imsazid
  * Author URI: https://www.linkedin.com/in/sheikh-sazidul/
  */
 
